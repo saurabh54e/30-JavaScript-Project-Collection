@@ -2,7 +2,7 @@
 
 🌐 Live Demo
 
-👉 (https://saurabh54e.github.io/30-Java-Project-Collection)
+👉 (https://saurabh54e.github.io/30-JavaScript-Project-Collection)
 
 🎯 Overview
 

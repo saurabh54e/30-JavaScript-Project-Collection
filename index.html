@@ -1,417 +1,1466 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>30 Days of JavaScript</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Font -->
+  <title>30 Days of JavaScript</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
 
-  <!-- HERO -->
+  <!-- ================= HERO ================= -->
 
-  <section class="hero">
-    <h1>30 Days of JavaScript</h1>
-    <p>Built 30+ interactive projects focusing on UI & real-world functionality</p>
-  </section>
+  <header class="hero">
 
-  <!-- PROJECT GRID -->
+    <div class="hero-content">
 
-  <section class="container">
-    <div class="grid">
+      <div class="hero-text">
 
-  <!-- CARD 1-->
-  <div class="card">
-    <img src="images/Weather app.png" alt="Weather App">
-    <div class="card-content">
-      <h3>Weather App</h3>
-      <p>Real-time weather with city search</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day01-Weather-App/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day01-Weather-App" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <p class="eyebrow">JAVASCRIPT PROJECT CHALLENGE</p>
 
-  <!-- CARD 2-->
-  <div class="card">
-    <img src="images/ToDo app.png" alt="ToDo App">
-    <div class="card-content">
-      <h3>ToDo App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day02-ToDo-App/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day02-ToDo-App" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <h1>
+          30 Days of
+          <span>JavaScript</span>
+        </h1>
 
-  <!-- CARD 3-->
-  <div class="card">
-    <img src="images/Quiz app.png" alt="">
-    <div class="card-content">
-      <h3>Quiz App</h3>
-      <p>Test your knowledge with our interactive quiz</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day03-Quiz-App/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day03-Quiz-App" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 4-->
-  <div class="card">
-    <img src="images/Rock Paper Scissors.png" alt="">
-    <div class="card-content">
-      <h3>Rock Paper Scissors</h3>
-      <p>Play the classic game of Rock Paper Scissors</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day04-Rock-Paper-Scissors/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day04-Rock-Paper-Scissors" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <p class="hero-description">
+          Built 30+ interactive projects focusing on
+          UI, JavaScript fundamentals & real-world functionality.
+        </p>
 
-  <!-- CARD 5-->
-   <div class="card">
-    <img src="images/Password generator.png" alt="Password Generator">
-    <div class="card-content">
-      <h3>Password Generator</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day05-Random-Password-Generator/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day05-Random-Password-Generator" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <div class="hero-buttons">
 
-  <!-- CARD 6-->
-  <div class="card">
-    <img src="images/Notes app.png" alt="Notes App">
-    <div class="card-content">
-      <h3>Notes App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day06-Notes-App/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day06-Notes-App" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 7-->
-  <div class="card">
-    <img src="images/Qr app.png" alt="Qr Code Generator">
-    <div class="card-content">
-      <h3>Qr Code Generator</h3>
-      <p>Generate QR codes for any text or URL</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day07-Qr-Code-Generator/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day07-Qr-Code-Generator" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+          <a href="#projects" class="hero-btn primary">
+            View Projects
+            <span>↗</span>
+          </a>
 
-  <!-- CARD 8-->
-  <div class="card">
-    <img src="images/Quote Generator.png" alt="">
-    <div class="card-content">
-      <h3>Quote Generator App</h3>
-      <p>Generate inspiring quotes for your projects</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day08-Quote-Generator/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day08-Quote-Generator" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+          <a
+            href="https://github.com/saurabh54e"
+            target="_blank"
+            class="hero-btn secondary"
+          >
+            View Code
+            <span>◉</span>
+          </a>
 
-  <!-- CARD 9-->
-  <div class="card">
-    <img src="images/Toast Notification App.png" alt="">
-    <div class="card-content">
-      <h3>Toast Notification App</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day09-Toast-Notification-App/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day09-Toast-Notification-App" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 10-->
-  <div class="card">
-    <img src="images/Music Player.png" alt="">
-    <div class="card-content">
-      <h3>Music Player</h3>
-      <p>Listen to local music</p>`
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day10-Music-Player/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day10-Music-Player" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        </div>
 
-  <!-- CARD 11-->
-  <div class="card">
-    <img src="images/Text to Speech Converter.png" alt="">
-    <div class="card-content">
-      <h3>Text to Speech Converter</h3>
-      <p>Convert text to speech with natural voices</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day11-Text-To-Speech-App/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day11-Text-To-Speech-App" class="btn code">Code</a>
       </div>
-    </div>
-  </div>
 
-  <!-- CARD 12-->
-  <div class="card">
-    <img src="images/Expense Tracker App.png" alt="">
-    <div class="card-content">
-      <h3>Expense Tracker</h3>
-      <p>Track your expenses and manage your budget</p>
-      <div class="buttons">
-        <a href="https://saurabh54e.github.io/Js-Day12-Expense-Tracker-App/" class="btn live">Live</a>
-        <a href="https://github.com/saurabh54e/Js-Day12-Expense-Tracker-App" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 13-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Weather App</h3>
-      <p>Real-time weather with city search</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
 
-  <!-- CARD 14-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Notes App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+      <!-- JavaScript Visual -->
 
-  <!-- CARD 15-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Password Generator</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 16-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Weather App</h3>
-      <p>Real-time weather with city search</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+      <div class="js-visual">
 
-  <!-- CARD 17-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Notes App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
 
-  <!-- CARD 18-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Password Generator</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 19-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Weather App</h3>
-      <p>Real-time weather with city search</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <div class="js-card">
+          <span>JS</span>
+        </div>
 
-  <!-- CARD 20-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Notes App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <div class="floating-icon icon-code">
+          &lt;/&gt;
+        </div>
 
-  <!-- CARD 21-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Password Generator</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
-  <!-- CARD 22-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Weather App</h3>
-      <p>Real-time weather with city search</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <div class="floating-icon icon-braces">
+          { }
+        </div>
 
-  <!-- CARD 23-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Notes App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
+        <div class="floating-icon icon-function">
+          ()
+        </div>
 
-  <!-- CARD 24-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Password Generator</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
       </div>
-    </div>
-  </div>
-  <!-- CARD 25-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Weather App</h3>
-      <p>Real-time weather with city search</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
-    </div>
-  </div>
 
-  <!-- CARD 26-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Notes App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
-      </div>
     </div>
-  </div>
 
-  <!-- CARD 27-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Password Generator</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
+  </header>
+
+
+  <!-- ================= FEATURED PROJECTS ================= -->
+
+  <main>
+
+    <section class="featured" id="projects">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="section-label">MY WORK</p>
+          <h2>Featured Projects</h2>
+        </div>
+
+        <a href="#all-projects" class="view-all">
+          View All
+          <span>→</span>
+        </a>
+
       </div>
-    </div>
-  </div>
-  <!-- CARD 28-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Weather App</h3>
-      <p>Real-time weather with city search</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
+
+
+      <div class="featured-grid">
+
+        <!-- DAY 01 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+            <img
+              src="images/Weather app.png"
+              alt="Weather App"
+            >
+
+            <span class="day-number">DAY 01</span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Weather App</h3>
+
+            <p>
+              Real-time weather with city search
+            </p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day01-Weather-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day01-Weather-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 02 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+            <img
+              src="images/ToDo app.png"
+              alt="ToDo App"
+            >
+
+            <span class="day-number">DAY 02</span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>ToDo App</h3>
+
+            <p>
+              Create and manage tasks easily
+            </p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day02-ToDo-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day02-ToDo-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 03 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+            <img
+              src="images/Quiz app.png"
+              alt="Quiz App"
+            >
+
+            <span class="day-number">DAY 03</span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Quiz App</h3>
+
+            <p>
+              Test your knowledge with an interactive quiz
+            </p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day03-Quiz-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day03-Quiz-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 04 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+            <img
+              src="images/Rock Paper Scissors.png"
+              alt="Rock Paper Scissors"
+            >
+
+            <span class="day-number">DAY 04</span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Rock Paper Scissors</h3>
+
+            <p>
+              Play the classic game using JavaScript
+            </p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day04-Rock-Paper-Scissors/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day04-Rock-Paper-Scissors"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 05 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+            <img
+              src="images/Password generator.png"
+              alt="Password Generator"
+            >
+
+            <span class="day-number">DAY 05</span>
+          </div>
+
+          <div class="project-content">
+
+            <h3>Password Generator</h3>
+
+            <p>
+              Generate strong and secure passwords
+            </p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day05-Random-Password-Generator/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day05-Random-Password-Generator"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
       </div>
-    </div>
-  </div>
 
-  <!-- CARD 29-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Notes App</h3>
-      <p>Create and manage notes easily</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
+    </section>
+
+
+    <!-- ================= ALL PROJECTS ================= -->
+
+    <section class="all-projects" id="all-projects">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="section-label">30 DAY CHALLENGE</p>
+          <h2>All Projects</h2>
+        </div>
+
+        <p class="project-count">
+          12 / 30 Completed
+        </p>
+
       </div>
-    </div>
-  </div>
 
-  <!-- CARD 30-->
-  <div class="card">
-    <img src="https://via.placeholder.com/400x200" alt="">
-    <div class="card-content">
-      <h3>Password Generator</h3>
-      <p>Generate strong secure passwords</p>
-      <div class="buttons">
-        <a href="#" class="btn live">Live</a>
-        <a href="#" class="btn code">Code</a>
+
+      <div class="projects-grid">
+
+
+        <!-- DAY 01 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Weather app.png"
+              alt="Weather App"
+            >
+
+            <span class="day-number">DAY 01</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Weather App</h3>
+
+            <p>Real-time weather with city search</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day01-Weather-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day01-Weather-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 02 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/ToDo app.png"
+              alt="ToDo App"
+            >
+
+            <span class="day-number">DAY 02</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>ToDo App</h3>
+
+            <p>Create and manage tasks easily</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day02-ToDo-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day02-ToDo-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 03 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Quiz app.png"
+              alt="Quiz App"
+            >
+
+            <span class="day-number">DAY 03</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Quiz App</h3>
+
+            <p>Interactive JavaScript quiz</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day03-Quiz-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day03-Quiz-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 04 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Rock Paper Scissors.png"
+              alt="Rock Paper Scissors"
+            >
+
+            <span class="day-number">DAY 04</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Rock Paper Scissors</h3>
+
+            <p>Classic game built with JavaScript</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day04-Rock-Paper-Scissors/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day04-Rock-Paper-Scissors"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 05 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Password generator.png"
+              alt="Password Generator"
+            >
+
+            <span class="day-number">DAY 05</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Password Generator</h3>
+
+            <p>Generate strong secure passwords</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day05-Random-Password-Generator/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day05-Random-Password-Generator"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 06 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Notes app.png"
+              alt="Notes App"
+            >
+
+            <span class="day-number">DAY 06</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Notes App</h3>
+
+            <p>Create and manage notes easily</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day06-Notes-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day06-Notes-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 07 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Qr app.png"
+              alt="QR Code Generator"
+            >
+
+            <span class="day-number">DAY 07</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>QR Code Generator</h3>
+
+            <p>Generate QR codes from text or URLs</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day07-Qr-Code-Generator/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day07-Qr-Code-Generator"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 08 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Quote Generator.png"
+              alt="Quote Generator"
+            >
+
+            <span class="day-number">DAY 08</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Quote Generator</h3>
+
+            <p>Generate inspiring quotes</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day08-Quote-Generator/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day08-Quote-Generator"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 09 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Toast Notification App.png"
+              alt="Toast Notification App"
+            >
+
+            <span class="day-number">DAY 09</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Toast Notification</h3>
+
+            <p>Interactive notification system</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day09-Toast-Notification-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day09-Toast-Notification-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 10 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Music Player.png"
+              alt="Music Player"
+            >
+
+            <span class="day-number">DAY 10</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Music Player</h3>
+
+            <p>Listen to local music</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day10-Music-Player/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day10-Music-Player"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 11 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Text to Speech Converter.png"
+              alt="Text to Speech Converter"
+            >
+
+            <span class="day-number">DAY 11</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Text to Speech</h3>
+
+            <p>Convert text to speech with natural voices</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day11-Text-To-Speech-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day11-Text-To-Speech-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- DAY 12 -->
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img
+              src="images/Expense Tracker App.png"
+              alt="Expense Tracker"
+            >
+
+            <span class="day-number">DAY 12</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Expense Tracker</h3>
+
+            <p>Track expenses and manage your budget</p>
+
+            <div class="project-buttons">
+
+              <a
+                href="https://saurabh54e.github.io/Js-Day12-Expense-Tracker-App/"
+                target="_blank"
+                class="project-btn live"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/saurabh54e/Js-Day12-Expense-Tracker-App"
+                target="_blank"
+                class="project-btn code"
+              >
+                Code
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- ================= FUTURE DAYS ================= -->
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>13</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 13</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>14</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 14</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>15</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 15</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>16</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 16</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>17</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 17</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>18</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 18</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>19</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 19</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>20</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 20</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>21</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 21</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>22</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 22</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>23</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 23</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>24</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 24</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>25</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 25</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>26</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 26</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>27</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 27</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>28</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 28</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>29</span>
+
+            <p>COMING SOON</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 29</h3>
+
+            <p>Next JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card coming-soon">
+
+          <div class="coming-soon-image">
+
+            <span>30</span>
+
+            <p>FINAL PROJECT</p>
+
+          </div>
+
+          <div class="project-content">
+
+            <h3>Day 30</h3>
+
+            <p>The final JavaScript project</p>
+
+            <div class="project-buttons">
+
+              <button class="project-btn disabled">
+                Coming Soon
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
       </div>
-    </div>
-  </div>
 
-</div>
+    </section>
 
-  </section>
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <p>
+      30 Days of JavaScript
+    </p>
+
+    <span>
+      Built with HTML, CSS & JavaScript
+    </span>
+
+  </footer>
+
 
 </body>
 </html>

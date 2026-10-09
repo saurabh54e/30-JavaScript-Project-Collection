@@ -30,9 +30,6 @@ CSS3	        Styling & Layout
 JavaScript	  Functionality
 
 
-📸 Preview
-
-
 
 🧠 What I Learned
 Consistency through daily development

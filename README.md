@@ -1,4 +1,4 @@
-🚀 30 Days of JavaScript – Project Hub
+🚀 30 JavaScript Project Collection– Project Hub
 
 🌐 Live Demo
 
@@ -6,7 +6,7 @@
 
 🎯 Overview
 
-This project is a centralized hub website that showcases my 30 Days of JavaScript Challenge.
+This project is a centralized hub website that showcases my 30  JavaScript Project Challenge.
 Instead of storing all project files in one repository, this platform provides a single place to:
 
 	•	Explore live demos of each project
